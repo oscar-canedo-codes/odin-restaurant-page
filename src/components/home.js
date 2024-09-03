@@ -1,4 +1,4 @@
-export default function loadHome() {
+export function loadHome() {
     const content = document.getElementById('content');
 
     const homeDiv = document.createElement('div');

@@ -1,6 +1,7 @@
-import loadHome from './home';
-import loadMenu from './menu';
-import loadContact from './contact';
+import { loadHome } from './components/home';
+import { loadMenu } from './components/menu';
+import { loadContact } from './components/contact';
+
 
 function setActiveButton(button) {
     const buttons = document.querySelectorAll('button');
